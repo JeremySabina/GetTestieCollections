@@ -1,12 +1,13 @@
 package rocks.zipcode;
 
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.HashMap;
 
 public class HashMapTest {
-
-    public static void main(String args[]) {
+    @Test
+    public void hashMapTest() {
         HashMap<String, String> hashMapTest = new HashMap<>();
 
         // Adding values to HashMap as ("keys", "values")

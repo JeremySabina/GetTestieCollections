@@ -37,31 +37,6 @@ public class HashSetTest {
         System.out.println(hashString);
     }
 
-    @Test       //  Used to return an iterator over the element in the set.
-    public void testHashSetIterator0() {
-        HashSet<Integer> hashString = new HashSet<>();
-
-        hashString.add(1);
-        hashString.add(11);
-        hashString.add(21);
-        hashString.add(31);
-        Iterator hashIterator = hashString.iterator();
-
-        String expected = "1 , 11 , 21 , 31";
-        Iterator actual = hashIterator;
-
-        Assert.assertEquals(expected, actual);
-
-
-        System.out.println(hashString);
-    }
-        // How do i write a test to prove a hash set has been itterated over?f
-
-
-    @Test
-    public void testHashSetIterator1() {
-        HashSet<String> hashString = new HashSet<>();
-    }
 
     @Test        // Used to remove all the elements from set.
     public void testHashSetClear0() {
